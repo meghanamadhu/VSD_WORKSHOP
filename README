@@ -1,3 +1,17 @@
-                                                                                                                                        DIGITAL SoC Design Workshop
-                                           cd Desktop/work/tools/openlane_working_dir/openlane
+                                                                                                                                       DIGITAL SoC Design Workshop
+ Launch the openlane using the below openlane:                                        
+                                         cd Desktop/work/tools/openlane_working_dir/openlane 
+                                         docker
+                                        ./flow.tcl -interactive
+                                         (Add image)
+                                          package require openlane 0.9
+
+There are already almost 40 designs in the design folder.(Add image)
+                                       cd picorv32a
+                                       cd src
+                                       cd ../
+   
+                                       less config.tcl
+                           
+
  
