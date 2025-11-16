@@ -87,3 +87,7 @@ Logical cell placement blockage
 This makes sure that the automated placement and routing tool doesnot place cells in that area.\
 This area is reserved for the pin locations.
 FLOORPLANNING LABWORK
+Go to the configuration directory.
+Within the directory there will be many tcl files and a README.md file.
+IN the README.Md file the floorplanning,cts , utilization factor and all such values are defined.
+/home/vsduser/Pictures/Screenshot from 2025-11-16 17-41-31.png
