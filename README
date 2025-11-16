@@ -12,6 +12,18 @@ There are already almost 40 designs in the design folder.(Add image)
                                        cd ../
    
                                        less config.tcl
+The command to be run in the open lane window for design preparation is :
+                                    prep -design picorv32a
+(Add Image)
+After the design preparation stage a runs directory is created(in the normal window)
+                                  cd runs/16-11_06-11
+                                  cd tmp
+                                  less merged.LEF
+
+
+
+                                       
+
                            
 
  
