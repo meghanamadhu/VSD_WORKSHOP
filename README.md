@@ -56,4 +56,6 @@ We can separately implement the blocks of circuits and can be reused multiple ti
 A combinational ogic will do a particular function.
 The placement of these cells is known as Floor planning.
 <img width="2434" height="893" alt="image" src="https://github.com/user-attachments/assets/d06d37fc-109e-4546-84ae-c53ee30d8ebf" />
-The placement of these cells will be fixed and will not touhed by automated placement and routing tools.
+The placement of these cells will be fixed and will not touched by automated placement and routing tools.
+Having a large physical distance from the power supply to the output voltage will result in a large drop in voltage and the output voltage can lie in an undefined voltage range.
+<img width="2309" height="1082" alt="DECOUPLING_CAPAC" src="https://github.com/user-attachments/assets/68287cf3-5dc9-4368-90a8-3f229fe4f0c0" />
