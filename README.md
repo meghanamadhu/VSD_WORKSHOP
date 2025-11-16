@@ -8,6 +8,7 @@
                                           package require openlane 0.9
 
 There are already almost 40 designs in the design folder.(Add image)
+
                                        cd picorv32a
                                        cd src
                                        cd ../
@@ -43,10 +44,5 @@ Utilization Factor = Area occupied netlist/Total area of the core
 Aspect ration = Height / Width
 
 DEFINE LOCATIONS OF PREPLACED CELLS
-(Add image )
-(Add Image)
-
-
-
 
 <img width="1562" height="1038" alt="WIDTH_HEIGHT" src="https://github.com/user-attachments/assets/4c47cc31-c5a1-4a43-9ab3-56f491172d07" />
