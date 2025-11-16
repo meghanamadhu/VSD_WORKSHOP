@@ -1,5 +1,6 @@
  Day 1                                                                                                                                    DIGITAL SoC Design Workshop
- Launch the openlane using the below openlane:                                        
+ Launch the openlane using the below openlane: 
+ 
                                          cd Desktop/work/tools/openlane_working_dir/openlane 
                                          docker
                                         ./flow.tcl -interactive
