@@ -12,7 +12,6 @@ There are already almost 40 designs in the design folder.(Add image)
                                        cd picorv32a
                                        cd src
                                        cd ../
-   
                                        less config.tcl
 The command to be run in the open lane window for design preparation is :
                                     prep -design picorv32a
