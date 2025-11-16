@@ -85,11 +85,18 @@ Hence it is important to make least resistance path is given to clock signal pat
 Logical cell placement blockage
 <img width="2245" height="1000" alt="image" src="https://github.com/user-attachments/assets/fe04d57b-e676-442a-94d0-93c5ca0ac7c9" />
 This makes sure that the automated placement and routing tool doesnot place cells in that area.\
-This area is reserved for the pin locations.
-FLOORPLANNING LABWORK
+This area is reserved for the pin locations. 
+
+FLOORPLANNING LABWORK 
+
 Go to the configuration directory.
 Within the directory there will be many tcl files and a README.md file.
 <img width="637" height="477" alt="image" src="https://github.com/user-attachments/assets/e682569a-6639-4047-81a0-dbb8a9eef7af" />
 
 IN the README.Md file the floorplanning,cts , utilization factor and all such values are defined.
 <img width="569" height="104" alt="image" src="https://github.com/user-attachments/assets/557c1396-aaf1-4a8d-b62b-c8c53e067667" />
+Run the following command to do floorplanning.
+
+              run_floorplan
+<img width="559" height="260" alt="image" src="https://github.com/user-attachments/assets/cf7e8e83-190e-4eb5-8876-fdb8714e19f6" />
+              
