@@ -1,4 +1,4 @@
-                                                                                                                                       DIGITAL SoC Design Workshop
+    Day 1                                                                                                                                    DIGITAL SoC Design Workshop
  Launch the openlane using the below openlane:                                        
                                          cd Desktop/work/tools/openlane_working_dir/openlane 
                                          docker
@@ -19,9 +19,31 @@ After the design preparation stage a runs directory is created(in the normal win
                                   cd runs/16-11_06-11
                                   cd tmp
                                   less merged.lef
-In the merged.LEF File there will be cell information, metal layer information and so on.
+In the merged.lef File there will be cell information, metal layer information and so on.
 Now go back one directory:
          cd ../
+         cd results (Add Image)
+Now go the openlane prompt
+Run the below command for Synthesis:
+                                run_synthesis
+The synthesis step will take 3-5 minutes to complete the design.
+The information about openlane can be obtained using
+             efabless openlane
+Inside the synthesis directory we can get the opensta timing and synthesis reports.
+(Add Image)
+Day2 - Good Floorplan v/s Bad floorplan and introduction to library cells.
+
+Width and height of core and die.
+We are trying to find the width and height of core and die.
+(Add Image)
+
+A die which consist of core is small semiconductor material specimen on which the fundamental circuit is fabricated.
+Utilization Factor = Area occupied netlist/Total area of the core
+Aspect ration = Height / Width
+
+
+
+        
 
 
                                        
