@@ -90,4 +90,4 @@ FLOORPLANNING LABWORK
 Go to the configuration directory.
 Within the directory there will be many tcl files and a README.md file.
 IN the README.Md file the floorplanning,cts , utilization factor and all such values are defined.
-/home/vsduser/Pictures/Screenshot from 2025-11-16 17-41-31.png
+file:///home/vsduser/Pictures/Screenshot%20from%202025-11-16%2017-41-31.png<img width="569" height="104" alt="image" src="https://github.com/user-attachments/assets/557c1396-aaf1-4a8d-b62b-c8c53e067667" />
