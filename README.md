@@ -50,6 +50,10 @@ Aspect ration = Height / Width
 DEFINE LOCATIONS OF PREPLACED CELLS
 
 <img width="1562" height="1038" alt="WIDTH_HEIGHT" src="https://github.com/user-attachments/assets/4c47cc31-c5a1-4a43-9ab3-56f491172d07" />
-A combinational l<img width="2019" height="1039" alt="image" src="https://github.com/user-attachments/assets/b98568e8-e1d7-43cb-a638-2613606d20ca" />
+ 
 We can separately implement the blocks of circuits and can be reused multiple times.
-ogic will do a particular function.
+<img width="2019" height="1039" alt="image" src="https://github.com/user-attachments/assets/b98568e8-e1d7-43cb-a638-2613606d20ca" />
+A combinational ogic will do a particular function.
+The placement of these cells is known as Floor planning.
+<img width="2434" height="893" alt="image" src="https://github.com/user-attachments/assets/d06d37fc-109e-4546-84ae-c53ee30d8ebf" />
+The placement of these cells will be fixed and will not touhed by automated placement and routing tools.
