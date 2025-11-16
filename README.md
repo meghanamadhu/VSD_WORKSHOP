@@ -167,12 +167,22 @@ Library & userdefined specs
 Cell height is the distance between the Power rail and the ground rail
 Cell width is dependent on the timing information.
 Design steps in cell design flow
+Circuit Design
 Layout Creation
+Characterization
 Euler's path and stick diagram
 PMOS network graph and NMOS network graph
 Euler's Path - Path traced in such a way that it passes through only once
 After drawing the Euler's path, we need to draw the stick diagrams.
 <img width="1073" height="411" alt="image" src="https://github.com/user-attachments/assets/6963dbb1-89f7-4c3a-804f-b5f6901c9a66" />
+Outputs
+Circuit Description Language
+GDSII
+LEF
+extracted spice netlist
+TYPICAL CHARACTERISATION
+<img width="1020" height="451" alt="image" src="https://github.com/user-attachments/assets/28e2917e-9fc3-4f23-840a-f315ae2f9824" />
+Timing Characterisation
 
 
 
