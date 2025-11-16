@@ -135,3 +135,45 @@ A library has the cells, which inlcudes the timing information such as delay.
 Each cell has specific width and height.
 <img width="2227" height="807" alt="image" src="https://github.com/user-attachments/assets/cace4697-9108-4aa2-9b70-926dcb564efd" />
 
+NEED FOR LIBRARIES AND CHARACTERISATION
+The netlist obtained from the logic synthesis serves as the input to the floorplanning
+<img width="986" height="432" alt="image" src="https://github.com/user-attachments/assets/0bc160af-1d88-4531-86da-066f8d60d508" />
+Placement of the netlsit is done such that the distance between input pins and corresponding Flipflop is minimum.
+CTS
+The CTS Stage ensures the clock signals reaches all the end points.
+Clock buffers take care if the clock signal has equal rise and fall time.
+
+Congestion aware placement RePIAce
+Global Placement : There is no legalisation. Major agenda is to reduce the wire length.
+Detailed Placement: Legalisation happens
+Command is 
+run placement
+When the overflow value decrease the design will converge.
+Post Floorplan and post CTS , Power Distribution Network is generated.
+Placement and routed design
+A library is a place where we keep all our 'standard cells'.
+<img width="663" height="470" alt="image" src="https://github.com/user-attachments/assets/f9ddbbd2-b783-420f-87bb-a324fb39890e" />
+CELL DESIGN FLOW
+Inputs for the Cell design flow
+Inputs are: Process Design Kits
+DRC & LVS rules
+SPICE Models
+library & user-defined specs
+Lambda rules/ design rules are specified by the foundries after experimenting.
+<img width="505" height="249" alt="image" src="https://github.com/user-attachments/assets/cab48239-7ae1-4856-88b6-567891ec643f" />
+SPICE MODEL PARAMETERS
+<img width="516" height="312" alt="image" src="https://github.com/user-attachments/assets/d77b50d2-6ee9-4edf-b336-5ecf7de56954" />
+Library & userdefined specs
+Cell height is the distance between the Power rail and the ground rail
+Cell width is dependent on the timing information.
+Design steps in cell design flow
+Layout Creation
+Euler's path and stick diagram
+PMOS network graph and NMOS network graph
+Euler's Path - Path traced in such a way that it passes through only once
+After drawing the Euler's path, we need to draw the stick diagrams.
+<img width="1073" height="411" alt="image" src="https://github.com/user-attachments/assets/6963dbb1-89f7-4c3a-804f-b5f6901c9a66" />
+
+
+
+
