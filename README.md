@@ -71,6 +71,11 @@ Global communication is implemented using the concept of Power planning.
 POWER PLANNING
 <img width="1892" height="930" alt="image" src="https://github.com/user-attachments/assets/107cd6b3-9ac3-42ef-bf23-5d5a84ea06d6" />
 <img width="1892" height="930" alt="image" src="https://github.com/user-attachments/assets/dccabc3f-2a95-4eb8-a6e5-347b514b156c" />
-NETLIST
+PIN PLANNING
+Netlist
 The connection between agtes is written suing Verilog/VHDL and the connection is known as Netlist.
 <img width="1916" height="1076" alt="image" src="https://github.com/user-attachments/assets/8ab47f04-34f7-4304-bb42-d5fb50860197" />
+The above circuit has 4 input ports Din, 2 clock ports, 4 output ports.
+The placement of pins is completely upto the designer.
+
+The ordering of input ports comes random.
