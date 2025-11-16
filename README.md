@@ -99,4 +99,8 @@ Run the following command to do floorplanning.
 
               run_floorplan
 <img width="559" height="260" alt="image" src="https://github.com/user-attachments/assets/cf7e8e83-190e-4eb5-8876-fdb8714e19f6" />
-              
+The floorplan configuration can be seen inside the runs directory.
+Go to the directory,
+/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/16-11_12-25
+<img width="558" height="380" alt="image" src="https://github.com/user-attachments/assets/a03b5563-c642-491f-a29a-6a9eeb6fce03" />
+
