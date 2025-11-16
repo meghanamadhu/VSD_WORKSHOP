@@ -18,8 +18,10 @@ The command to be run in the open lane window for design preparation is :
 After the design preparation stage a runs directory is created(in the normal window)
                                   cd runs/16-11_06-11
                                   cd tmp
-                                  less merged.LEF
-
+                                  less merged.lef
+In the merged.LEF File there will be cell information, metal layer information and so on.
+Now go back one directory:
+         cd ../
 
 
                                        
