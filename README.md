@@ -73,9 +73,16 @@ POWER PLANNING
 <img width="1892" height="930" alt="image" src="https://github.com/user-attachments/assets/dccabc3f-2a95-4eb8-a6e5-347b514b156c" />
 PIN PLANNING
 Netlist
-The connection between agtes is written suing Verilog/VHDL and the connection is known as Netlist.
+The connection between gates is written suing Verilog/VHDL and the connection is known as Netlist.
 <img width="1916" height="1076" alt="image" src="https://github.com/user-attachments/assets/8ab47f04-34f7-4304-bb42-d5fb50860197" />
 The above circuit has 4 input ports Din, 2 clock ports, 4 output ports.
 The placement of pins is completely upto the designer.
 
 The ordering of input ports comes random.
+The clock signal plays a major role as the whole flipflop circuit is driven by the clock signal.
+Hence it is important to make least resistance path is given to clock signal path.
+<img width="1982" height="990" alt="image" src="https://github.com/user-attachments/assets/b7e4d17a-6143-493c-bff7-b2e2621e4613" />
+Logical cell placement blockage
+<img width="2245" height="1000" alt="image" src="https://github.com/user-attachments/assets/fe04d57b-e676-442a-94d0-93c5ca0ac7c9" />
+This makes sure that the automated placement and routing tool doesnot place cells in that area.\
+This area is reserved for the pin locations.
