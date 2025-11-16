@@ -184,6 +184,13 @@ TYPICAL CHARACTERISATION
 <img width="1020" height="451" alt="image" src="https://github.com/user-attachments/assets/28e2917e-9fc3-4f23-840a-f315ae2f9824" />
 Timing Characterisation
 
+<img width="1166" height="473" alt="image" src="https://github.com/user-attachments/assets/90127779-ea31-42e1-912f-523c91b6baf3" />
+The threshold points are kept at 50%.
+Poor choice of threshold points can result in negative delay.
+Input and Output Slew calculation
+<img width="1191" height="446" alt="image" src="https://github.com/user-attachments/assets/73f103d8-5db5-4c79-8f78-8c8ebc167502" />
+
+
 
 
 
