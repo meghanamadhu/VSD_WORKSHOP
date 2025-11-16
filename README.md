@@ -113,10 +113,11 @@ PLACEMENT
 To run placement type the command
 
          run_placement
-file:///home/vsduser/Pictures/placement.png<img width="558" height="363" alt="image" src="https://github.com/user-attachments/assets/2a707377-54a1-401b-9335-a6fbf0cb95c0" />
-file:///home/vsduser/Pictures/placement_run_success.png<img width="563" height="332" alt="image" src="https://github.com/user-attachments/assets/79bf7541-fc52-4d6c-b0e9-a97715039131" />
+<img width="558" height="363" alt="image" src="https://github.com/user-attachments/assets/2a707377-54a1-401b-9335-a6fbf0cb95c0" />
+<img width="563" height="332" alt="image" src="https://github.com/user-attachments/assets/79bf7541-fc52-4d6c-b0e9-a97715039131" />
 
 To load the .def file generated from placement use the following command,
+
 
        cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/16-11_12-26/results/placement
 Then
@@ -132,4 +133,5 @@ PLacement&Routing
 Netlist Binding
 A library has the cells, which inlcudes the timing information such as delay.
 Each cell has specific width and height.
+<img width="2227" height="807" alt="image" src="https://github.com/user-attachments/assets/cace4697-9108-4aa2-9b70-926dcb564efd" />
 
