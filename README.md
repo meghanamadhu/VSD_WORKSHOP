@@ -14,19 +14,23 @@ There are already almost 40 designs in the design folder.(Add image)
                                        cd src
                                        cd ../
                                        less config.tcl
-The command to be run in the open lane window for design preparation is :
+The command to be run in the open lane window for design preparation is : 
+
                                     prep -design picorv32a
 (Add Image)
-After the design preparation stage a runs directory is created(in the normal window)
+After the design preparation stage a runs directory is created(in the normal window) 
+
                                   cd runs/16-11_06-11
                                   cd tmp
                                   less merged.lef
 In the merged.lef File there will be cell information, metal layer information and so on.
 Now go back one directory:
+
          cd ../
          cd results (Add Image)
 Now go the openlane prompt
 Run the below command for Synthesis:
+
                                 run_synthesis
 The synthesis step will take 3-5 minutes to complete the design.
 The information about openlane can be obtained using
