@@ -1,4 +1,5 @@
- Day 1                                                                                                                                    DIGITAL SoC Design Workshop
+                                       DIGITAL SoC Design Workshop
+                                        Day 1   
  Launch the openlane using the below openlane: 
  
                                          cd Desktop/work/tools/openlane_working_dir/openlane 
