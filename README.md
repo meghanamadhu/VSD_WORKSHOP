@@ -117,11 +117,19 @@ file:///home/vsduser/Pictures/placement.png<img width="558" height="363" alt="im
 file:///home/vsduser/Pictures/placement_run_success.png<img width="563" height="332" alt="image" src="https://github.com/user-attachments/assets/79bf7541-fc52-4d6c-b0e9-a97715039131" />
 
 To load the .def file generated from placement use the following command,
+
        cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/16-11_12-26/results/placement
 Then
+
 
    magic -T /home/vsduser/Desktop/work/tools\ /openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tec
 Inorder to exit from current run the command is,
 
 exit
+From the def file if we see, 
 If we divide the die Area by thousand we will get the cell dimensions in micrometers.
+PLacement&Routing
+Netlist Binding
+A library has the cells, which inlcudes the timing information such as delay.
+Each cell has specific width and height.
+
