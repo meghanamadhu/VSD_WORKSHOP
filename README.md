@@ -87,6 +87,7 @@ Logical cell placement blockage
 This makes sure that the automated placement and routing tool doesnot place cells in that area.\
 This area is reserved for the pin locations. 
 
+
 FLOORPLANNING LABWORK 
 
 Go to the configuration directory.
@@ -103,4 +104,9 @@ The floorplan configuration can be seen inside the runs directory.
 Go to the directory,
 /Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/16-11_12-25
 <img width="558" height="380" alt="image" src="https://github.com/user-attachments/assets/a03b5563-c642-491f-a29a-6a9eeb6fce03" />
+
+MAGIC LAUNCH
+To launch Magic use the following command,
+
+   magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 
