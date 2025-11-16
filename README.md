@@ -86,3 +86,4 @@ Logical cell placement blockage
 <img width="2245" height="1000" alt="image" src="https://github.com/user-attachments/assets/fe04d57b-e676-442a-94d0-93c5ca0ac7c9" />
 This makes sure that the automated placement and routing tool doesnot place cells in that area.\
 This area is reserved for the pin locations.
+FLOORPLANNING LABWORK
