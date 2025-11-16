@@ -59,3 +59,14 @@ The placement of these cells is known as Floor planning.
 The placement of these cells will be fixed and will not touched by automated placement and routing tools.
 Having a large physical distance from the power supply to the output voltage will result in a large drop in voltage and the output voltage can lie in an undefined voltage range.
 <img width="2309" height="1082" alt="DECOUPLING_CAPAC" src="https://github.com/user-attachments/assets/68287cf3-5dc9-4368-90a8-3f229fe4f0c0" />
+This porblem can be solved by decoupling capacitor.
+<img width="2253" height="990" alt="image" src="https://github.com/user-attachments/assets/5e2665f3-bdb8-41e5-bc6d-b499299e5cc3" />
+
+The decoupling capacitor can be used to decouple from the main supply.
+It is used to charge the capacitor.
+When there is switching activity happening it will charge to VDD.
+<img width="2293" height="1045" alt="image" src="https://github.com/user-attachments/assets/638b5590-103a-4569-a65f-4bd5ef86e49b" />
+Thereby local communication is handled.
+Global communication is implemented using the concept of Power planning.
+POWER PLANNING
+<img width="1892" height="930" alt="image" src="https://github.com/user-attachments/assets/107cd6b3-9ac3-42ef-bf23-5d5a84ea06d6" />
