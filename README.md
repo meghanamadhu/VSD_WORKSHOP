@@ -109,4 +109,11 @@ MAGIC LAUNCH
 To launch Magic use the following command,
 
    magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+PLACEMENT
+To run placement type the command
+
+         run_placement
+file:///home/vsduser/Pictures/placement.png<img width="558" height="363" alt="image" src="https://github.com/user-attachments/assets/2a707377-54a1-401b-9335-a6fbf0cb95c0" />
+file:///home/vsduser/Pictures/placement_run_success.png<img width="563" height="332" alt="image" src="https://github.com/user-attachments/assets/79bf7541-fc52-4d6c-b0e9-a97715039131" />
+
 
