@@ -89,5 +89,7 @@ This area is reserved for the pin locations.
 FLOORPLANNING LABWORK
 Go to the configuration directory.
 Within the directory there will be many tcl files and a README.md file.
+<img width="637" height="477" alt="image" src="https://github.com/user-attachments/assets/e682569a-6639-4047-81a0-dbb8a9eef7af" />
+
 IN the README.Md file the floorplanning,cts , utilization factor and all such values are defined.
-file:///home/vsduser/Pictures/Screenshot%20from%202025-11-16%2017-41-31.png<img width="569" height="104" alt="image" src="https://github.com/user-attachments/assets/557c1396-aaf1-4a8d-b62b-c8c53e067667" />
+<img width="569" height="104" alt="image" src="https://github.com/user-attachments/assets/557c1396-aaf1-4a8d-b62b-c8c53e067667" />
